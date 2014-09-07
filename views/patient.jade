@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1 Well Minded
+  p.lead Your friends care!
+  hr
+  .row
+      p
+        center
+          h1 How's it going, Liz?     
+      p
+        center
+          img(href='#', role='button', id='mood' src='images/mood6.png')
+      p
+        center
+          input#slider(class='slider' data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='5', data-slider-step='1', data-slider-value='5')
+      p
+        center
+          a.btn.btn-default(href='#', role='button', id='update') Update!
+
